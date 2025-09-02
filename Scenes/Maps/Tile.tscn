@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://g84t4kwkl71x"]
+
+[ext_resource type="Script" path="res://Scripts/tile.gd" id="1_nkcai"]
+
+[sub_resource type="CanvasTexture" id="CanvasTexture_30s05"]
+
+[node name="Tile" type="Node2D"]
+position = Vector2(8, 8)
+scale = Vector2(16, 16)
+script = ExtResource("1_nkcai")
+
+[node name="sprite" type="Sprite2D" parent="."]
+modulate = Color(0.529412, 1, 1, 1)
+texture = SubResource("CanvasTexture_30s05")
