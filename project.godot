@@ -11,6 +11,10 @@ config_version=5
 [application]
 
 config/name="4XCEO"
-run/main_scene="res://Scenes/Maps/Map.tscn"
-config/features=PackedStringArray("4.3", "Forward Plus")
+run/main_scene="uid://br7y8phfo1i2m"
+config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[autoload]
+
+Global="*res://Scripts/global.gd"
